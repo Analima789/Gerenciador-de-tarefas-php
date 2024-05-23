@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(115, 190, 234); 
+    font-family:cursive; /*fonte*/
+    color:rgb(195, 103, 232); /* cor da fonte */
+}
+
+h1{
+    text-align: center; /* alinha o texto para o centro */
+}
+
+fieldset{ /* ajuste de campo */
+    border: 3px double #333; /* borda com 3 px de espessura,linha dupla 
+    com cor 333(cinza escuro) */ 
+    color: #000; /* cor da fonte do fieldset */
+    margin: 10px 0 0 0; /* margem de 10px e com 0 em ???*/
+}
+
+label {
+    display: block;
+    margin:10px 0 0 0; /*margem de 10px e com 0 em ???*/
+}
+
+input[type=text],textarea{
+    width: 100%; /* largura */
+    border: 1px solid #333; /* uma borda com px de espessura com a linha
+    solida na cor cinza 333*/
+    padding: 3px; /* espassamento dos objetos (3px) */
+    border-radius: 5px; /* curvatura da borda*/
+}
+
+input[type=submit]{
+    float:right; /* posição flutuante do objeto direcionando
+    para o lado direito*/
+    clear: both; /*evitar vazamento de posição*/
+}
+
+table {
+    widht:100%; /* largura da tabela */
+}
+
+table th{ /* cabeçalho */
+    background-color: rgb(242, 160, 187); /* cor de fundo do cabeçalho da tabela*/
+}
+
+table td{
+    border-bottom: 1px solid #333;/*borda inferior de 1px de espessura
+    com linha solida e cor cinza 333*/
+    color:#000;/*cor da fonte da célula da tabela*/
+}
+
